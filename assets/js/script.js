@@ -24,7 +24,7 @@ function init() {
 
 function startGame() {
     isWin = false;
-    timerCount = 10;
+    timerCount = 60;
     startBtn.disabled = true;
     renderBlanks();
     startTimer();
